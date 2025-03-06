@@ -1,5 +1,5 @@
 header {
-    background-color: #1c232e;
+    background-color: #044239;
     padding: 30px;
     color: aliceblue;
     display: flex;
@@ -13,7 +13,7 @@ header h1 {
 .sessao1  {
     font-size: 30px;
     padding: 80px; /*preenchimento da sessão*/
-    background-color: #03484c; /*cor de fundo*/
+    background-color: #034c42; /*cor de fundo*/
     display: flex; /*deixando flex / lado a lado*/
     justify-content: center; /*Justificando o conteúdo ao centro */
     align-items: center; /*Alinhando os itens ao centro*/
