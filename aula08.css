@@ -1,5 +1,5 @@
 header {
-    background-color: #0a516d;
+    background-color: #1c232e;
     padding: 30px;
     color: aliceblue;
     display: flex;
@@ -13,7 +13,7 @@ header h1 {
 .sessao1  {
     font-size: 30px;
     padding: 80px; /*preenchimento da sessão*/
-    background-color: #018790; /*cor de fundo*/
+    background-color: #03484c; /*cor de fundo*/
     display: flex; /*deixando flex / lado a lado*/
     justify-content: center; /*Justificando o conteúdo ao centro */
     align-items: center; /*Alinhando os itens ao centro*/
@@ -21,36 +21,37 @@ header h1 {
     color: aliceblue;
 }
 .sessao2 {
-    background-color: #7dad93;
+    background-color: #0f684b;
     padding: 30px;
     text-align: center;
     color: aliceblue;
 }
 .sessao2 i {
-    font-size: 30px;
+    font-size: 60px;
     color: aliceblue;
 }
 .sessao3 {
-    
-    padding: 200px;
-    text-align: center;
-    background-image: url(imagens/menu-3167860_1280.jpg);
-    background-size: cover;
-    display: flex;
+    padding: 300px;
+    background-position: bottom; /*Posicionamento da Imagem*/
+    background-size: cover; /*Preechimento da área disponível da Imagem*/
+    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background.*/
+    display: flex; /*tornando os itens flex*/
+    justify-content: center; /*Alinhando o botão ao centro*/
+    background-image: url(imagens/map-2527413_1280.jpg);
 }
 .sessao3 button {
-    width: 200px; /*largura do botão*/
+    width: 180px; /*largura do botão*/
     padding: 20px; /*Preenchimento do botão*/
-    color: rgb(192, 174, 11);
-    background-color: rgb(51, 35, 35);
+    color: rgb(255, 255, 255);
+    background-color: #3b8952;
     border-radius: 20px; /*Arredondamento do botão*/
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     
 }
 
 footer {
-    background-color: #bacca4;
+    background-color: #3b8952;
     padding: 60px;
     text-align: center;
 }
