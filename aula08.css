@@ -32,9 +32,8 @@ header h1 {
 }
 .sessao3 {
     padding: 300px;
-    background-position: bottom; /*Posicionamento da Imagem*/
-    background-size: cover; /*Preechimento da área disponível da Imagem*/
-    background-repeat: no-repeat; /*Retirando a repetição da imagem no Background.*/
+    background-attachment: fixed;
+    background-position: center;
     display: flex; /*tornando os itens flex*/
     justify-content: center; /*Alinhando o botão ao centro*/
     background-image: url(imagens/map-2527413_1280.jpg);
