@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* estilizando header */
+ header {
+    padding: 20px; /**responsavel pelo peenchimento interno/tamanho**/
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    display: flex; /*tornando os itens lado a lado*/
+    justify-content: center; /*  justificando conteudo ao centro*/
+    gap: 50px;/*espaco entre os elementos*/
+    align-items: center; /*alinhamento vertical dos itens */
+ }
+
+ /* estilizando o icone */
+ header i {
+    color: rgb(255, 251, 0); /** cor do icone **/
+    font-size: 60px; /**tamanho do icone **/
+ }
+
+ header h1 {
+    color: rgb(228, 224, 0); /** cor da letra  **/
+    font-size: 35px; /* cor da letra*/
+    font-family:  "Roboto", sans-serif;;
+
+
+ }
+   /*fim do cabeçalho*/
+
+   /* inicio da primeira primeira sessao*/
+   .sessao01 {
+    padding: 160px;/*preenchmento /tamanho*/
+    background-color: rgb(0, 0, 0);/*cor de fundo*/
+    color: aliceblue;/*cor da letra*/
+    display: flex;/*tornando os itens  flex /lado a lado*/
+    justify-content: center;/*justificando conteudo ao centro*/
+    align-items: center;/*alinhamento vertical dos itens*/
+    gap: 60px; /*espaco entre os elementos*/
+   }
+    .sessao01 span {
+    font-size: 45px; /*tamanho da letra*/
+    color: #fffb00;/*cor da letra*/
+    }
+    .sessao01 img {
+        width: 600px; /*largura*/
+        height: 600px;/*altura*/
+        font-family:  "Roboto", sans-serif;;
+    }
+    /*fim da primeira sessao*/
+
+    /*inicio da segunda sessao*/
+
+    .sessao02 {
+        background-color: #4d0707;
+        padding: 160px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        flex-direction: column;
+    }
+    
+    .sessao02 i {
+        font-size: 50px;/**tamanho do icone **/
+        color: #fffb00; /** cor do icone **/
+    }
+
+    .sessao02 p {
+        color: aliceblue;
+        font-size: 30px;
+        font-family:  "Roboto", sans-serif;;;
+    }
+
+    /*fim da segunda sessao*/
+
+    /*inicio da terceirasessao*/
+
+    .sessao03 {
+        padding: 280px;
+        background-image: url(imagens/ai-generated-7920006_1280.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex; /*tornando os itens lado a lado*/
+        justify-content: center; /*  justificando conteudo ao centro*/
+    }
+    .sessao03 button {
+        padding: 10px;
+        width: 150px;
+        background-color: #ced103;
+        
+
+    }
