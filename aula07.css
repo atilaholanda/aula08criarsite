@@ -18,12 +18,29 @@
  }
 
  header h1 {
-    color: rgb(228, 224, 0); /** cor da letra  **/
+    color: rgb(255, 251, 0); /** cor da letra  **/
     font-size: 35px; /* cor da letra*/
     font-family:  "Roboto", sans-serif;;
 
+ }
+
+ .list-menu ul { /*alteracao na lista nao ordenada*/
+    display: flex;/*tornando as li flex*/
+    justify-content: center;/*ddeixando alas centralizadas */
+    gap: 20px;/*deixando espacos entre elas*/
+ }
+
+ .list-menu ul li { /*alteracao da lista li elemento filho*/
+    list-style: none;/*removendo o estilo de lista aplicado por padrao*/
 
  }
+ .list-menu ul li a {
+    text-decoration: none; /*remocao do sublinhado (decoracao de texto :nenhuma)*/
+    color: #fbff00;
+ }
+
+
+
    /*fim do cabeçalho*/
 
    /* inicio da primeira primeira sessao*/
@@ -87,7 +104,37 @@
     .sessao03 button {
         padding: 10px;
         width: 150px;
-        background-color: #ced103;
-        
-
+        background-color: #fbff00;
+    
     }
+
+    .sessao04 {
+        padding: 150px;
+        background-color: #fbff00; /*cor de fundo*/
+        display: flex;/*deixando as divs lado a lado*/
+        gap: 10px;
+        justify-content: space-evenly; /*justificando o conteudo*/
+    }
+
+    .sessao04 div {
+        width:300px;/*largura da caixa*/
+        height: 300px;/*alturadacaixa*/
+        background-color: aliceblue; /*cor de fundo*/
+        color: #000000; /*cor da letra*/
+    }
+    /* final da terceira sessao  */
+
+     footer {
+        padding: 25px;
+        background-color: black;
+
+        text-align: center; /* */
+     }
+     footer p {
+        color: #fffb00;/*cor da letra*/
+        font-size: 25px;/*tamanho da letra*/
+     }
+     footer i {
+        color: #fbff00; /* cor do icone*/
+        font-size: 25px;
+     }
